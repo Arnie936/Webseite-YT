@@ -32,7 +32,7 @@ html {
 }
 
 body {
-  background: var(--color-background);
+  background: transparent;
   color: var(--color-text-primary);
   font-family: var(--font-sans);
 }

@@ -5,10 +5,13 @@ import CommunitySection from "@/components/CommunitySection";
 import VideoSection from "@/components/VideoSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import ShaderBackground from "@/components/ui/ShaderBackground";
 
 export default function Home() {
   return (
     <>
+      <ShaderBackground />
+
       {/* Skip Link */}
       <a
         href="#leistungen"

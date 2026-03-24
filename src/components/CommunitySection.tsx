@@ -13,7 +13,7 @@ export default function CommunitySection() {
   return (
     <section id="community" className="py-24 sm:py-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="border border-neon-violet/20 rounded-3xl p-8 sm:p-12 lg:p-16 shadow-glow-violet">
+        <div className="border border-neon-violet/20 rounded-3xl p-8 sm:p-12 lg:p-16 shadow-glow-violet bg-surface/60 backdrop-blur-sm">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             {/* Image */}
             <div className="flex-shrink-0">
