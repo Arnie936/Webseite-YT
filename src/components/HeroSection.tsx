@@ -41,15 +41,17 @@ export default function HeroSection() {
           {/* Image */}
           <div className="flex-1 flex justify-center lg:justify-end relative">
             <div className="absolute inset-0 bg-neon-cyan/20 rounded-full blur-3xl scale-75" />
-            <Image
-              src="/images/ich1.png"
-              alt="Arnold Oberleiter - KI-Experte"
-              width={500}
-              height={500}
-              priority
-              sizes="(max-width: 768px) 100vw, 50vw"
-              className="relative z-10 w-full max-w-md lg:max-w-lg"
-            />
+            <div className="relative z-10 bg-surface/80 backdrop-blur-sm border border-white/5 rounded-2xl p-4 overflow-hidden">
+              <Image
+                src="/images/ich1.png"
+                alt="Arnold Oberleiter - KI-Experte"
+                width={500}
+                height={500}
+                priority
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="w-full max-w-md lg:max-w-lg rounded-xl"
+              />
+            </div>
           </div>
         </div>
       </div>
